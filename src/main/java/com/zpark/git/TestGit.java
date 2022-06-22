@@ -1,5 +1,12 @@
 package com.zpark.git;
 
+/**
+ * 合并分支:
+ *    其他的分支需要合并至master
+ *         失误的操作:把master分支合并到hot-fix分支上!错误把其他分支合并到master分支上!错误
+ *              1、切换到master(主角视觉）
+ *              2、到其他分支上执行合并的操作
+ */
 public class TestGit {
     public static void main(String[] args) {
         System.out.println("IDEA test Git! --master");
